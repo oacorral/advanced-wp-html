@@ -89,5 +89,84 @@ nav.main-nav a{
 }
 
 nav.main-nav a:hover{
-  color: #009acd;  
+  color: #009acd;
+}
+
+.content{
+  margin-top: 30px;
+  line-height: 1.5em;
+}
+
+.main{
+  float: left;
+  width: 65%;
+}
+
+.side{
+  float: right;
+  width: 30%;
+}
+
+.block{
+  border: #ccc 1px solid;
+  padding: 5px 15px 25px 15px;
+  background: #fcfcfc;
+  overflow: hidden;
+}
+
+.block h3{
+  border-bottom: #ccc solid 1px;
+  padding-bottom: 10px;
+}
+
+article.post{
+  border-bottom: #ccc solid 1px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+article.post .meta{
+  background: #009acd;
+  color: #fff;
+  padding: 7px;
+}
+
+.button{
+  background: #009acd;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+footer.main-footer{
+  margin-top: 40px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  height: 60px;
+  padding-top: 10px;
+  overflow: auto;
+}
+
+footer.main-footer .f_left{
+  float: left;
+}
+
+footer.main-footer .f_right{
+  float: right;
+  margin-top: 15px;
+}
+
+footer.main-footer ul{
+  display: inline;
+}
+
+footer.main-footer li{
+  float: left;
+  padding-right: 10px;
+  list-style: none;
+}
+
+footer.main-footer a{
+  color: #fff;
 }
